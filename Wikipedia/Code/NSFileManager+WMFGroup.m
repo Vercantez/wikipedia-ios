@@ -6,7 +6,7 @@ NSString *const WMFApplicationGroupIdentifier = @QUOTE(WMF_APP_GROUP_IDENTIFIER)
 @implementation NSFileManager (WMFGroup)
 
 - (nonnull NSURL *)wmf_containerURL {
-    return [self containerURLForSecurityApplicationGroupIdentifier:WMFApplicationGroupIdentifier];
+    return [self temporaryDirectory];
 }
 
 - (nonnull NSString *)wmf_containerPath {

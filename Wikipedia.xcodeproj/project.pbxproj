@@ -11,7 +11,6 @@
 		00021DE524D48EFD00476F97 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00021DE424D48EFD00476F97 /* SwiftUI.framework */; };
 		00021DE824D48EFD00476F97 /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00021DE724D48EFD00476F97 /* Widgets.swift */; };
 		00021DEA24D48EFE00476F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00021DE924D48EFE00476F97 /* Assets.xcassets */; };
-		00021DEE24D48EFE00476F97 /* WidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 00021DE124D48EFD00476F97 /* WidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		00021E0424D4A42A00476F97 /* PictureOfTheDayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00021E0324D4A42A00476F97 /* PictureOfTheDayWidget.swift */; };
 		0010F93927A49C7700D77848 /* HorizontalSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010F93827A49C7700D77848 /* HorizontalSpacerView.swift */; };
 		0010F93A27A49C7700D77848 /* HorizontalSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010F93827A49C7700D77848 /* HorizontalSpacerView.swift */; };
@@ -360,7 +359,6 @@
 		0E728D4C1DAEEE910074EB4B /* CLLocation+WMFComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = BCCFC44A1C84BAE0009D3613 /* CLLocation+WMFComparison.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E8380651D64989F0076EDE4 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8380641D64989F0076EDE4 /* NotificationCenter.framework */; };
 		0E83806C1D64989F0076EDE4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E83806A1D64989F0076EDE4 /* MainInterface.storyboard */; };
-		0E8380701D64989F0076EDE4 /* ContinueReadingWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0E8380631D64989F0076EDE4 /* ContinueReadingWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0E8768361DDE002C00B8CACD /* WMFAnnouncementsContentSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E8768341DDE002C00B8CACD /* WMFAnnouncementsContentSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E8768371DDE002C00B8CACD /* WMFAnnouncementsContentSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8768351DDE002C00B8CACD /* WMFAnnouncementsContentSource.m */; };
 		0E87683A1DDE00D600B8CACD /* WMFAnnouncementsFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E8768381DDE00D600B8CACD /* WMFAnnouncementsFetcher.h */; };
@@ -527,7 +525,6 @@
 		6761AEF82707E34F00E47BAD /* NotificationsCenterModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6761AEF62707E34F00E47BAD /* NotificationsCenterModelController.swift */; };
 		6761AEF92707E34F00E47BAD /* NotificationsCenterModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6761AEF62707E34F00E47BAD /* NotificationsCenterModelController.swift */; };
 		67623E112AFD2897007488C7 /* WKSourceEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67623E102AFD2897007488C7 /* WKSourceEditorUITests.swift */; };
-		676C864B26D40AEB00A704C1 /* NotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 676C864426D40AEA00A704C1 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		676C867026D416FB00A704C1 /* NotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 676C864426D40AEA00A704C1 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		676C867326D4170100A704C1 /* NotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 676C864426D40AEA00A704C1 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		676C868126D4545300A704C1 /* WMF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D844D96C1D6CB2600042D692 /* WMF.framework */; };
@@ -2162,7 +2159,6 @@
 		D84692E01D5E1E3F000A7058 /* TableOfContentsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84692DE1D5E1E3F000A7058 /* TableOfContentsHeader.swift */; };
 		D84692E11D5E1E3F000A7058 /* TableOfContentsHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84692DF1D5E1E3F000A7058 /* TableOfContentsHeader.xib */; };
 		D8479FAE1F222FE90025FD7A /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8479FAD1F222FE90025FD7A /* Stickers.xcassets */; };
-		D8479FB21F222FE90025FD7A /* Wikipedia Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D8479FAB1F222FE80025FD7A /* Wikipedia Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D84B224D1DAFD0F7007C44AA /* WMFNotificationsController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F1BF241D9C2AFB00036E71 /* WMFNotificationsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D84B224E1DAFD0FC007C44AA /* WMFNotificationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F1BF251D9C2AFB00036E71 /* WMFNotificationsController.m */; };
 		D84B224F1DAFD14D007C44AA /* WMFFaceDetectionCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E805CF1C0CE5420065EBC0 /* WMFFaceDetectionCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -2808,13 +2804,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00021DEC24D48EFE00476F97 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D499142D181D51DE00E6073C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 00021DE024D48EFD00476F97;
-			remoteInfo = WidgetsExtension;
-		};
 		00AB75BF24D4E8FB0041056A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D499142D181D51DE00E6073C /* Project object */;
@@ -2822,26 +2811,12 @@
 			remoteGlobalIDString = D844D96B1D6CB2600042D692;
 			remoteInfo = WMF;
 		};
-		0E83806E1D64989F0076EDE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D499142D181D51DE00E6073C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0E8380621D64989F0076EDE4;
-			remoteInfo = ContinueReadingWidget;
-		};
 		67623E122AFD2897007488C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D499142D181D51DE00E6073C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D4991434181D51DE00E6073C;
 			remoteInfo = Wikipedia;
-		};
-		676C864926D40AEB00A704C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D499142D181D51DE00E6073C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 676C864326D40AEA00A704C1;
-			remoteInfo = NotificationServiceExtension;
 		};
 		676C867126D416FB00A704C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2870,13 +2845,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D4991434181D51DE00E6073C;
 			remoteInfo = Wikipedia;
-		};
-		D8479FB01F222FE90025FD7A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D499142D181D51DE00E6073C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D8479FAA1F222FE80025FD7A;
-			remoteInfo = "Wikipedia Stickers";
 		};
 		D88DBBBA1D8B322400134A50 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2931,20 +2899,6 @@
 			files = (
 			);
 			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0E8380771D64989F0076EDE4 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				00021DEE24D48EFE00476F97 /* WidgetsExtension.appex in Embed Foundation Extensions */,
-				676C864B26D40AEB00A704C1 /* NotificationServiceExtension.appex in Embed Foundation Extensions */,
-				0E8380701D64989F0076EDE4 /* ContinueReadingWidget.appex in Embed Foundation Extensions */,
-				D8479FB21F222FE90025FD7A /* Wikipedia Stickers.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D84581101D67572D00B09640 /* Embed Frameworks */ = {
@@ -9136,17 +9090,12 @@
 				D4991431181D51DE00E6073C /* Sources */,
 				D4991432181D51DE00E6073C /* Frameworks */,
 				D4991433181D51DE00E6073C /* Resources */,
-				0E8380771D64989F0076EDE4 /* Embed Foundation Extensions */,
 				D84581101D67572D00B09640 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				D88DBBBB1D8B322400134A50 /* PBXTargetDependency */,
-				0E83806F1D64989F0076EDE4 /* PBXTargetDependency */,
-				D8479FB11F222FE90025FD7A /* PBXTargetDependency */,
-				00021DED24D48EFE00476F97 /* PBXTargetDependency */,
-				676C864A26D40AEB00A704C1 /* PBXTargetDependency */,
 			);
 			name = Wikipedia;
 			packageProductDependencies = (
@@ -9328,7 +9277,6 @@
 						TestTargetID = D4991434181D51DE00E6073C;
 					};
 					D4991434181D51DE00E6073C = {
-						DevelopmentTeam = AKK7J2GV64;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -12409,30 +12357,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00021DED24D48EFE00476F97 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 00021DE024D48EFD00476F97 /* WidgetsExtension */;
-			targetProxy = 00021DEC24D48EFE00476F97 /* PBXContainerItemProxy */;
-		};
 		00AB75C024D4E8FB0041056A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D844D96B1D6CB2600042D692 /* WMF */;
 			targetProxy = 00AB75BF24D4E8FB0041056A /* PBXContainerItemProxy */;
 		};
-		0E83806F1D64989F0076EDE4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0E8380621D64989F0076EDE4 /* ContinueReadingWidget */;
-			targetProxy = 0E83806E1D64989F0076EDE4 /* PBXContainerItemProxy */;
-		};
 		67623E132AFD2897007488C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D4991434181D51DE00E6073C /* Wikipedia */;
 			targetProxy = 67623E122AFD2897007488C7 /* PBXContainerItemProxy */;
-		};
-		676C864A26D40AEB00A704C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 676C864326D40AEA00A704C1 /* NotificationServiceExtension */;
-			targetProxy = 676C864926D40AEB00A704C1 /* PBXContainerItemProxy */;
 		};
 		676C867226D416FB00A704C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -12453,11 +12386,6 @@
 			isa = PBXTargetDependency;
 			target = D4991434181D51DE00E6073C /* Wikipedia */;
 			targetProxy = BCBDE0AD1AA76F19006BD29A /* PBXContainerItemProxy */;
-		};
-		D8479FB11F222FE90025FD7A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D8479FAA1F222FE80025FD7A /* Wikipedia Stickers */;
-			targetProxy = D8479FB01F222FE90025FD7A /* PBXContainerItemProxy */;
 		};
 		D88DBBBB1D8B322400134A50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -13310,7 +13238,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = PEZC3LCN5S;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_OPTIMIZATION_LEVEL = 3;
@@ -13324,7 +13252,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia34234234;
 				PRODUCT_MODULE_NAME = Wikipedia;
 				PRODUCT_NAME = Wikipedia;
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -13455,7 +13383,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = PEZC3LCN5S;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_OPTIMIZATION_LEVEL = 3;
@@ -13469,7 +13397,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia34234234;
 				PRODUCT_MODULE_NAME = Wikipedia;
 				PRODUCT_NAME = Wikipedia;
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -14620,7 +14548,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = PEZC3LCN5S;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
@@ -14631,7 +14559,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia34234234;
 				PRODUCT_MODULE_NAME = Wikipedia;
 				PRODUCT_NAME = Wikipedia;
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -14651,7 +14579,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = PEZC3LCN5S;
 				ENABLE_TESTABILITY = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_OPTIMIZATION_LEVEL = 3;
@@ -14665,7 +14593,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia34234234;
 				PRODUCT_MODULE_NAME = Wikipedia;
 				PRODUCT_NAME = Wikipedia;
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -15024,7 +14952,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = PEZC3LCN5S;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
@@ -15035,7 +14963,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia34234234;
 				PRODUCT_MODULE_NAME = Wikipedia;
 				PRODUCT_NAME = Wikipedia;
 				RUN_CLANG_STATIC_ANALYZER = NO;

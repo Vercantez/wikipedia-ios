@@ -682,13 +682,15 @@ NSString *const WMFCacheContextCrossProcessNotificiationChannelNamePrefix = @"or
 - (void)setupLegacyDataStore {
     NSString *pathToExclude = [self pathForSites];
     NSError *directoryCreationError = nil;
-    if (![[NSFileManager defaultManager] createDirectoryAtPath:pathToExclude withIntermediateDirectories:YES attributes:nil error:&directoryCreationError]) {
-        DDLogError(@"Error creating MWKDataStore path: %@", directoryCreationError);
-    }
-    NSURL *directoryURL = [NSURL fileURLWithPath:pathToExclude isDirectory:YES];
-    NSError *excludeBackupError = nil;
-    if (![directoryURL setResourceValue:@(YES) forKey:NSURLIsExcludedFromBackupKey error:&excludeBackupError]) {
-        DDLogError(@"Error excluding MWKDataStore path from backup: %@", excludeBackupError);
+    if (pathToExclude != nil) {
+        if (![[NSFileManager defaultManager] createDirectoryAtPath:pathToExclude withIntermediateDirectories:YES attributes:nil error:&directoryCreationError]) {
+            DDLogError(@"Error creating MWKDataStore path: %@", directoryCreationError);
+        }
+        NSURL *directoryURL = [NSURL fileURLWithPath:pathToExclude isDirectory:YES];
+        NSError *excludeBackupError = nil;
+        if (![directoryURL setResourceValue:@(YES) forKey:NSURLIsExcludedFromBackupKey error:&excludeBackupError]) {
+            DDLogError(@"Error excluding MWKDataStore path from backup: %@", excludeBackupError);
+        }
     }
     self.articleCache = [[NSCache alloc] init];
     self.articleCache.countLimit = 1000;
